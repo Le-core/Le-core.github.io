@@ -1,0 +1,559 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.heder{
+    background: url(img/bgc.png) center center no-repeat;
+    background-size: cover;
+}
+
+.contact-conteiner{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.contact-conteiner p{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 59%;
+}
+
+.menu div {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid white; 
+    border-bottom: 1px solid white; 
+    border-top: 1px solid white; 
+    padding: 15px 0;
+    
+}
+
+.menu div:last-of-type {
+    border-right: none; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.heder-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 38%;
+}
+
+.heder-button button{
+    transition: 0.30s;
+    cursor: pointer;
+    margin: 15px;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 30px;
+    width: 203px;
+    height: 50px;
+    background: #99862A;
+    outline: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+
+.heder-button button:hover{
+    background: #282828;
+}
+
+/*lorem*/
+
+.lorem{
+    background-color: #282828;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.lorem-setting{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid #C4C4C4;
+    width: 75%;
+    height: 90%;
+}
+
+.lorem-setting h1{
+    margin-top: 5%;
+    font-family: Playfair Display;
+    font-size: 190%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lorem-setting P{
+    margin-top: 6%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lorem-line{
+    margin-top: 6%;
+    height: 1px;
+    width: 160px;
+    background-color: #C4C4C4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wineglass-img{
+    margin-top:6%;
+    margin-bottom: 6%;
+}
+
+/*"new-colection*/
+
+.new-colection{
+    background-color: #E6E3C4;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.line-colection{
+    margin-bottom: 60px;
+    height: 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #998431
+}
+
+.line-colection2{
+    margin-top: 60px;
+    height: 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #998431
+}
+
+.collection-setting{
+    display: flex;
+    justify-content: space-around;
+}
+
+.colection-text h1{
+    margin-top: 10px;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.line-m{
+    margin-top: 30px;
+    height: 1px;
+    width: 160px;
+    background-color:#282828;
+}
+
+.colection-text h5{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.year-table{
+    display: flex;
+    justify-content: row;
+    text-align: center;
+    
+}
+
+
+.year-table p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.year-table h1{
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.year-table h2{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.t1{
+    border-right: 1px solid #282828; 
+    border-bottom: 1px solid #282828; 
+    padding: 25px ;
+}
+
+.t2{
+    border-right: 1px solid #282828; 
+    padding: 25px;
+}
+
+.year-text{
+    border-bottom: 1px solid #282828; 
+    padding-left: 20px;
+}
+
+.year-text2{
+    padding-left: 20px;
+}
+
+.colection-text button{
+    height: 50px;
+    width: 254px;
+    border-radius: 0px;
+    padding: 15px, 30px, 15px, 30px;
+    background-color: #998431;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.colection-text button:hover{
+    background: #282828;;
+    transition: 0.30s;
+    cursor: pointer;
+}
+
+.botle-img img{
+    height: 49.5%;
+    width: 49.5%;
+}
+
+.Rectangle img{
+    height: 90%;
+    width:100%;
+}
+
+/*degustation*/
+
+.degustation{
+    background-color:#282828;
+    padding-top: 130px;
+    padding-bottom: 3%;
+}
+
+.degustation-setting{
+    
+    margin-top: 3%;
+    
+    border: 3px solid #C4C4C4;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.hed-deg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hed-deg h1{
+    margin-top: -3%;
+    max-height: 10% ;
+    width: 45%;
+    height: 15%;
+    text-align: center;
+    align-items: center;
+    background-color: #282828;
+    font-family: Playfair Display;
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.bocka img{
+    margin-left: 25%;
+    margin-top: -20%;
+    height: 90%;
+    width: 90%;
+}
+
+.vine img{
+    margin-left: -20%;
+    margin-top: -30%;
+    height: 110%;
+    width: 110%;
+}
+
+.line-degustation{
+    margin-top: -10%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    width: 118px;
+    background-color: blanchedalmond;
+}
+
+.degustation-setting p{
+    text-align: center;
+    margin-top: 5%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.degustation-input{
+    text-align: center;
+    margin-top: 4%;
+    
+}
+
+.login-input{
+    margin-bottom: 2%;
+}
+
+.login-input input{
+    outline: none;
+    margin: 1%;
+    width: 25%;
+    height: 30px;
+    border: none; 
+    border-bottom: 1px solid #e0e0e0;
+    background: none;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.adress-input input{
+    width: 52%;
+    height: 30px;
+    border: none; 
+    border-bottom: 1px solid #e0e0e0;
+    background: none;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline: none;
+    color: #FFFFFF;
+}
+
+.deg-button{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.deg-button button{
+    margin-bottom: 3%;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    height: 50px;
+    width: 50%;
+    border: 1px solid #FFFFFF;
+    transition: 0.35s;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.deg-button button:hover{
+    color:black;
+    background: white;
+}
+
+/*footer*/
+
+.footer{
+    background: #998431;
+    height:100%;
+    padding-top: 3%;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 59%;
+    margin-top: 1%;
+    padding-bottom: 2%;
+}
+
+.footer-menu div{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid white; 
+    border-bottom: 1px solid white; 
+    border-top: 1px solid white; 
+    padding: 15px 0;
+}
+
+.footer-menu div:last-of-type{
+    border-right: none; 
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon1 {
+    height: 15.924995422363281px;
+    width: 22.751224517822266px;
+}
+
+.icon2{
+    height: 13.720803260803223px;
+    width: 23.999975204467773px;
+}
+
+.icon3{
+    height: 19.49693489074707px;
+    width: 10.113998413085938px;
+}
+
+.footer-a{
+    text-align: center;
+    margin-top: 1%;
+}
+
+.footer-a a{
+    text-decoration: none;
+    margin: 2%;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-line{
+    height: 0px;
+    width: 59%;
+    border: 1px solid #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-menu p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+}
